@@ -12,7 +12,6 @@
 <body>
 
 
-
     <section class="topo">
         <div class="center">
 
@@ -35,15 +34,34 @@
                 <a href="https://www.youtube.com/watch?v=TfUIorfpVbM" target="black">Ver demostração</a>
             </div> <!-- w50 -->
             <div class="w50 time-imagem">
-                <img src="img/equipe.png" alt="equipe">
+                <img src="img/equipe.png" />
             </div><!-- w50 -->
             <div class="clear"></div>
-           
-
         </div><!-- center -->
     </section><!-- topo -->
-    
-    
+
+    <section class="clientes-slider">
+        <div class="center">
+
+        </div><!-- center -->
+    </section>
+
+<script src="js/jquery.js"></script>
+<script src="js/slick.min.js"></script>    
+<script type="text/javascript">
+    $('.container-slider').slick({
+    dots: true,
+    arrows:false,
+    infinite: true,
+    centerMode: true,
+    CenterPadding:0,
+    speed:1000,
+    slidesToShow: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover:false
+    });
+</script>
 </body>
 </html>
 
